@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/stranky.css">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-primary">
+            <div class="container-fluid">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Úvod</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Nabídka
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="../Akustická/index.html">Akustická Kytara</a></li>
+                                <li><a class="dropdown-item" href="../Eletricka/index.html">Elektrická kytara</a></li>
+                                <li><a class="dropdown-item" href="../Basova/index.html">Basová kytara</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="../SlKytara/index.html">Složení Kytary</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../quiz/index.html">Quiz</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <h1 class="text-center">Quiz</h1>
+    <main>
+        
+        <form>
+            <p class="otazka pt-1">1. Kolik strun je na základní kytaře</p>
+            <div class="form-group row">
+              <div class="col-md-3 mx-auto">
+                <select class="form-select" id="sel1" name="sellist1">
+                    <option>Vyber</option>
+                    <option>5</option>
+                    <option>4</option>
+                    <option>12</option>
+                    <option>6</option>
+                  </select>
+              </div>
+            </div>
+            <p class="alert alert-success collapse multi-collapse mt-2" id="answer1">6</p>
+            <p class="otazka pt-1">2. Jaká kytara nepatří mezi akustickou?</p>
+            <div class="form-group row">
+              <div class="col-md-3 mx-auto">
+                <select class="form-select" name="vertical" id="vertical">
+                  <option>Vyber</option>
+                  <option>Klasická</option>
+                  <option>Dvanáctistrunná</option>
+                  <option>Vihuela</option>
+                  <option>Dobro</option>
+                </select>
+              </div>
+            </div>
+            <p class="alert alert-success collapse multi-collapse mt-2" id="answer2">Vihuela</p>
+            <p class="otazka pt-1">3. Patří kobylka mezi části kytary?</p>
+            <div class="form-group row">
+                <div class="col-md-3 mx-auto">
+                    <select class="form-select" name="vertical" id="vertical">
+                      <option>Vyber</option>
+                      <option>Ano</option>
+                      <option>Ne</option>
+                      
+                    </select>
+                  </div>
+            </div>
+            <p class="alert alert-success collapse multi-collapse mt-2" id="answer3">Ano</p>
+            <p class="otazka pt-1">4. Je nota B stejná jako nota H</p>
+            <div class="form-group row">
+              <div class="col-md-3 mx-auto">
+                <select class="form-select" name="mvp" id="mvp">
+                  <option>Vyber</option>
+                  <option>Ano</option>
+                  <option>Ne</option>
+                  
+                </select>
+              </div>
+            </div>
+            <p class="alert alert-success collapse multi-collapse mt-2" id="answer4">Ano</p>
+            <p class="otazka pt-1">5. Michael Balzary alias Flea je:</p>
+            <div class="form-group row">
+              <div class="col-md-3 mx-auto">
+                <select class="form-select" name="3pts" id="3pts">
+                  <option>Vyber</option>
+                  <option>Solový kytarista</option>
+                  <option>Bubeník</option>
+                  <option>Basový hráč</option>
+                  <option>Nikdo</option>
+                  <option>Herec</option>
+                </select>
+              </div>
+            </div>
+            <p class="alert alert-success collapse multi-collapse mt-2" id="answer5">Basový Hráč</p>
+            
+          </form>
+    </main>
+    
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+main{
+    
+    background-color:aliceblue;
+}
+h1{
+    background-color: aliceblue;
+}
+
+.navbar{
+    font-family: "Trirong", serif;
+    padding-left: 85%;
+    background-color:darkslateblue !important;
+}
